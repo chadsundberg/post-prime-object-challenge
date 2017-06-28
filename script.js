@@ -17,7 +17,7 @@ var nevada =  new State("NV", 25000, 1);
 
 // push object instances to locations array
 
-
+locations.push(illinois, minnesota, nevada);
 
 // DO NOT MODIFY THIS CODE
 $(document).ready(function () {
