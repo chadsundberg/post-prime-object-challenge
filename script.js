@@ -4,9 +4,9 @@ var locations = []; // this array will hold your objects
 function State(state, revenue, locationCount) {
   this.state = state;
   this.revenue = revenue;
-  this.locations = locationCount;
-  this.averageRevenue(){
-    return revenue / locations;
+  this.locationCount = locationCount;
+  this.averageRevenue = function(){
+    return this.revenue / this.locationCount;
   };
 }
 // object instances
